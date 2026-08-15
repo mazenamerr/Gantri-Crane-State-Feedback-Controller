@@ -20,7 +20,7 @@ The state feedback poles were too aggressive for this force budget, so the virtu
 
 FBL cart position | FBL swing angle | FBL control force
 :---:|:---:|:---:
-![FBL cart position](feedback_linearization/images/FBL%20Cart%20Position.png) | ![FBL swing angle](feedback_linearization/images/FBL%20Swing%20Angle.png) | ![FBL control force](feedback_linearization/images/FBL%20Control%20Force.png)
+![FBL cart position](feedback_linearization/images/fbl_cart_position.png) | ![FBL swing angle](feedback_linearization/images/fbl_swing_angle.png) | ![FBL control force](feedback_linearization/images/fbl_control_force.png)
 
 ## Comparison
 
@@ -28,7 +28,7 @@ Both controllers were run on the same nonlinear plant, from the same initial sta
 
 Cart position | Swing angle | Control force
 :---:|:---:|:---:
-![Cart position](comparison/images/Linear%20Vs%20FBL%20Cart%20Position.png) | ![Swing angle](comparison/images/Linear%20Vs%20FBL%20Swing%20Angle.png) | ![Control force](comparison/images/Linear%20Vs%20FBL%20Control%20Force.png)
+![Cart position](comparison/images/linear_vs_fbl_cart_position.png) | ![Swing angle](comparison/images/linear_vs_fbl_swing_angle.png) | ![Control force](comparison/images/linear_vs_fbl_control_force.png)
 
 | Move | Peak swing — linear | Peak swing — FBL | Change | Peak force — linear | Peak force — FBL | Change |
 |---|---|---|---|---|---|---|
